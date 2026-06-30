@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0192/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0192/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上上清禳災延壽寶懺
+  date: '2015-08-28 23:40:42.913667'
+  source:
+    repository: kanripo
+    path: KR5a0192
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0192_000-HFL.yaml, hash: 'sha256:1de628f74d1a426a877dc885dac437b4f968e80013b7572b999faf2b98dd6478'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0192_000-HFL.markers.yaml, hash: 'sha256:b620858eadb8bc17a53985f443fcbdd9a951c9055af28b46b273de8da40ab09e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0192_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1172
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:96721dfe391d35fbdb6beba3f790190109b8cb3bad65a295de86c0b70e28a0cf

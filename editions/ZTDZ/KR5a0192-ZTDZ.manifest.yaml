@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0192/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0192/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上上清禳災延壽寶懺
+  date: '2015-08-28 23:40:42.913667'
+  source:
+    repository: kanripo
+    path: KR5a0192
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0192_000-ZTDZ.yaml, hash: 'sha256:b4c21f5062a3382bbb1ad14d881e7d1253bb47d7e4ad3240defdb9b7deb60e9b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0192_000-ZTDZ.markers.yaml, hash: 'sha256:0ad0aaa54d5503f36014666dd7dcb0d30761d41e9195712e5a0f80f96a9a521d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0192_SJB_000-030512b
+    span:
+    - body
+    - 0
+    - 1172
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:e5d93210a50cce7b57cfefe0258e349923ec7f85cfd78578292dd9df072bcf36
